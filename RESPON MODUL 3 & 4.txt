@@ -1,0 +1,86 @@
+RESPONSI MODUL 3 & 4
+Latar Belakang
+Toko musik VinylHaven membutuhkan aplikasi untuk mengelola ribuan koleksi album musik mereka. Aplikasi ini harus mampu mengelompokkan album berdasarkan genre agar mudah dicari dan diurutkan.
+
+Spesifikasi Struktur Data
+Dilarang menggunakan library bawaan bahasa pemrograman (seperti ArrayList, LinkedList, atau TreeMap). Wajib membuat struktur data berikut secara manual:
+
+1. Binary Search Tree (Struktur Utama)
+Digunakan untuk menyimpan Genre Musik.
+Setiap node pada tree merepresentasikan satu genre.
+Genre harus tersusun secara otomatis berdasarkan urutan abjad (A-Z).
+
+2. Single/Double Linked List (Struktur Sekunder)
+Berada di dalam setiap node Genre.
+Digunakan untuk menyimpan daftar Album yang memiliki Judul Album dan Tahun Rilis.
+
+Fitur Wajib
+1. Tambah Data: Pengguna dapat memasukkan Genre, Judul Album, dan Tahun Rilis. Jika Genre belum ada, program harus membuatnya secara otomatis di dalam Tree.
+2. Lihat Katalog (Sorting): Pengguna dapat memilih Genre, lalu program menampilkan daftar album di dalamnya. Daftar album wajib terurut berdasarkan Tahun Rilis secara menaik (Ascending).
+3. Cari Album (Searching): Pengguna dapat mencari keberadaan album tertentu di dalam sebuah Genre.
+
+Rubrik Penilaian Algoritma (Khusus Linked List Album)
+
+Penilaian didasarkan pada kompleksitas dan efisiensi algoritma yang dipilih untuk memanipulasi data di dalam Linked List (Data Album).
+
+A. Nilai Tinggi (Range 0 - 100)
+- Metode Searching: Binary Search
+- Metode Sorting: Merge Sort ATAU Quick Sort
+
+B. Nilai Menengah (Range 0 - 84)
+- Metode Searching: Binary Search ATAU Linear Search
+- Metode Sorting: Selection Sort ATAU Insertion Sort
+
+C. Nilai Cukup (Range 0 - 74)
+- Metode Searching: Linear Search
+- Metode Sorting: Bubble Sort ATAU Selection Sort
+
+Catatan Tambahan:
+Pastikan tidak ada rantai node yang putus saat melakukan operasi sorting (terutama saat memanipulasi pointer). Pencarian string (Judul Album) tidak perlu memperhatikan huruf besar/kecil (case-insensitive).
+Tampilkan seluruh method yang digunakan pada output program.
+
+
+
+
+3rd & 4th Module Response
+Background
+VinylHaven music store needs an application to manage their thousands of music albums. This application must be able to group albums by genre so that they are easy to search and sort.
+
+Data Structure Specifications
+It is prohibited to use built-in programming language libraries (such as ArrayList, LinkedList, or TreeMap). You must manually create the following data structures:
+
+1. Binary Search Tree (Main Structure)
+Used to store Music Genres.
+Each node in the tree represents one genre.
+Genres must be automatically sorted in alphabetical order (A-Z).
+
+2. Single/Double Linked List (Secondary Structure)
+Located within each Genre node.
+Used to store a list of Albums with Album Titles and Release Years.
+
+Required Features
+1. Add Data: Users can enter Genre, Album Title, and Release Year. If the Genre does not exist, the program must automatically create it in the Tree.
+2. View Catalog (Sorting): Users can select a Genre, and the program will display a list of albums within it. The album list must be sorted by Release Year in ascending order.
+3. Search Albums: Users can search for specific albums within a genre.
+
+Algorithm Assessment Rubric (Specific to Album Linked List)
+
+The assessment is based on the complexity and efficiency of the algorithm chosen to manipulate data in the Linked List (Album Data).
+
+A. High Score (Range 0 - 100)
+- Searching Method: Binary Search
+- Sorting Method: Merge Sort OR Quick Sort
+
+B. Medium Score (Range 0 - 84)
+- Searching Method: Binary Search OR Linear Search
+- Sorting Method: Selection Sort OR Insertion Sort
+
+C. Fair Score (Range 0 - 74)
+- Searching Method: Linear Search
+- Sorting Method: Bubble Sort OR Selection Sort
+
+Additional Notes:
+Ensure that there are no broken node chains when performing sorting operations (especially when manipulating pointers). String searches (Album Title) do not need to consider case sensitivity (case-insensitive).
+Display all methods used in the program output.
+
+Translated with DeepL.com (free version)
